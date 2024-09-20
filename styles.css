@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/jsmath-cmti10");
+header nav {
+  font-weight: 400;
+  z-index: 1;
+}
+header nav div .navbar-brand {
+  font-family: "Quicksand", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+}
+header nav div .navbar-brand span {
+  display: flex;
+}
+header nav div .nav-item {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.hero {
+  margin-top: 150px;
+}
+.hero .col-md-2 {
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  top: 150px;
+  margin-right: 50px;
+}
+.hero .col-md-2 h5 {
+  font-family: "jsMath-cmti10", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.hero .col-md-2 h5 span {
+  color: #0057FF;
+}
+.hero .col-md-2 div p {
+  font-family: "Quicksand", sans-serif;
+  padding-right: 120px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+.hero .txt {
+  z-index: 1;
+}
+.hero .txt h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.hero .txt h1 span {
+  display: flex;
+}
+.hero .drone {
+  position: relative;
+  top: -150px;
+  right: 350px;
+  width: 200px;
+}
+.hero button {
+  position: relative;
+  top: -450px;
+  border-radius: 20px;
+  padding: 7px 40px;
+  font-family: "Quicksand", sans-serif;
+}
+.hero .image {
+  position: relative;
+  left: 500px;
+  top: -270px;
+}
+@media only screen and (max-width: 992px) {
+  .hero .col-md-2 {
+    position: static;
+    margin: 20px 0;
+    top: 0;
+  }
+  .hero .col-md-2 h5 {
+    text-align: center;
+  }
+  .hero .col-md-2 div p {
+    padding-right: 0;
+    text-align: center;
+  }
+  .hero .txt h1 {
+    font-size: 64px;
+    text-align: left;
+    margin-left: 0;
+  }
+  .hero .drone {
+    position: relative;
+    left: -350px;
+    top: -220px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+  }
+  .hero button {
+    position: relative;
+    top: -520px;
+    margin: 20px auto;
+    display: block;
+  }
+  .hero .image {
+    position: relative;
+    left: -50px;
+    top: -320px;
+    margin: 20px auto;
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero .txt {
+    text-align: center;
+  }
+  .hero .txt h1 {
+    font-size: 48px;
+  }
+  .hero button {
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+}
+
+.desc, .comp1 {
+  font-family: "Quicksand", sans-serif;
+}
+.desc h2, .comp1 h2 {
+  padding-bottom: 50px;
+  font-size: 36px;
+  font-weight: 400;
+}
+.desc .col h3, .comp1 .col h3 {
+  margin-bottom: 70px;
+  font-size: 32px;
+  font-weight: 400;
+}
+.desc .col h4, .comp1 .col h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.comp1 {
+  margin-top: 350px;
+}
+.comp1 h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+}
+.comp1 img {
+  margin-bottom: 120px;
+}
+
+.comp2 {
+  font-family: "Quicksand", sans-serif;
+  margin: 350px 0 150px 0;
+}
+.comp2 h2 {
+  margin-bottom: 100px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 64px;
+}
+.comp2 .col-md-6 {
+  font-weight: 400;
+  padding: 0 50px;
+}
+.comp2 .col-md-6 h5 {
+  font-size: 32px;
+}
+.comp2 .col-md-6 .slika1 {
+  position: relative;
+  left: 0;
+  margin-top: 20px;
+  max-width: 100%;
+}
+.comp2 .col-md-6 img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 992px) {
+  .comp2 .col-md-6 {
+    padding: 0 20px;
+  }
+  .comp2 .col-md-6 h5 {
+    text-align: center;
+    font-size: 28px;
+  }
+  .comp2 .col-md-6 .slika1,
+  .comp2 .col-md-6 img {
+    position: static;
+    margin: 20px auto;
+    display: block;
+    max-width: 100%;
+  }
+  .comp2 h2 {
+    font-size: 48px;
+  }
+  .comp2 h5 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .comp2 h2 {
+    font-size: 32px;
+  }
+  .comp2 h5 {
+    font-size: 20px;
+  }
+  .comp2 .col-md-6 {
+    padding: 0 10px;
+  }
+}
+
+.prices {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+.prices h5 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 400;
+}
+.prices h3 {
+  margin-bottom: 100px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.prices button {
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 40px;
+  padding: 8px 10px;
+}
+
+.services {
+  margin: 200px 0;
+  font-family: "Quicksand", sans-serif;
+}
+.services h3 {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.services h5 {
+  margin-left: 80px;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 34px;
+}
+.services img {
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 992px) {
+  .services h3 {
+    font-size: 32px;
+  }
+  .services h5 {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+  .services img {
+    margin-bottom: 10px;
+  }
+}
+
+footer .contact {
+  font-family: "Quicksand", sans-serif;
+}
+footer .contact h2 {
+  margin: 100px 0;
+  font-size: 32px;
+  font-weight: 500;
+}
+footer .contact form {
+  font-size: 20px;
+  font-weight: 400;
+}
+footer .contact form input,
+footer .contact form textarea {
+  width: 100%;
+  max-width: 360px;
+  height: 40px;
+  border-radius: 40px;
+}
+footer .contact form input:hover,
+footer .contact form textarea:hover {
+  border: 2px solid #0057FF;
+}
+footer .contact form textarea {
+  height: auto;
+}
+footer .contact button {
+  font-size: 20px;
+  margin: 50px 75px;
+  border-radius: 40px;
+  padding: 5px 60px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.hero-distributor {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.hero-distributor h2 {
+  font-size: 64px;
+  font-weight: 400;
+  margin: 80px 0;
+}
+.hero-distributor div .mar {
+  margin: 0 150px 50px 150px;
+}
+.hero-distributor div p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.hero-distributor img {
+  margin: 100px 0;
+}
+@media only screen and (max-width: 992px) {
+  .hero-distributor h2 {
+    font-size: 48px;
+  }
+  .hero-distributor div .mar {
+    margin: 0 20px 50px 20px;
+  }
+  .hero-distributor p {
+    font-size: 18px;
+  }
+}
+
+.tabela {
+  margin-top: 250px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+}
+.tabela h5 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 25px;
+}
+.tabela .table-responsive {
+  overflow-x: auto;
+}
+.tabela table {
+  width: 100%;
+}
+.tabela table thead {
+  border-bottom: 2px solid grey;
+}
+.tabela table tbody tr td {
+  padding: 15px;
+}
+.tabela table tbody tr td button {
+  background-color: #0057FF;
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin: 20px 10px;
+  border-radius: 40px;
+  padding: 8px 20px;
+  font-family: "Quicksand", sans-serif;
+}
+.tabela h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 992px) {
+  .tabela {
+    font-size: 18px;
+  }
+  .tabela h5 {
+    font-size: 20px;
+  }
+  .tabela table {
+    font-size: 16px;
+  }
+  .tabela h3 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tabela {
+    font-size: 16px;
+  }
+  .tabela h5 {
+    font-size: 18px;
+  }
+  .tabela table {
+    font-size: 14px;
+  }
+  .tabela h3 {
+    font-size: 28px;
+  }
+  .tabela .table-responsive {
+    font-size: 14px;
+  }
+  .tabela table thead {
+    font-size: 12px;
+  }
+  .tabela table tbody tr td button {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+}/*# sourceMappingURL=styles.css.map */
